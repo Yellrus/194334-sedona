@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Руслан Наманов](https://up.htmlacademy.ru/htmlcss/13/user/194334).
-* Наставник: [Никита Рогатнев](https://htmlacademy.ru/profile/id86119).
+* Наставник: [Никита :) Рогатнев](https://htmlacademy.ru/profile/id86119).
 
 ---
 
