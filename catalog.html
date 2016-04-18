@@ -2,188 +2,184 @@
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Каталог</title>
-    <meta name="keywords" content="">
-    <meta name="descriptions" content="">
+  <meta charset="utf-8">
+  <title>HTML Academy: Каталог</title>
+  <meta name="keywords" content="">
+  <meta name="descriptions" content="">
 </head>
 
 <body>
+  <div class="container">
     <header class="main-header">
-        <div class="container">
-            <nav class="main-navigation">
-                <ul>
-                    <li>
-                        <a href="#">ИНФОРМАЦИЯ</a>
-                    </li>
-                    <li>
-                        <a href="#">ФОТО И ВИДЕО</a>
-                    </li>
-                    <li>
-                        <a href="#">КАРТА ШТАТА</a>
-                    </li>
-                    <li>
-                        <a href="#">ГОСТИНИЦЫ</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="index-logo">
-                <img src="/index.html" alt="Логотип седона">
-            </div>
-        </div>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">ИНФОРМАЦИЯ</a>
+          </li>
+          <li>
+            <a href="#">ФОТО И ВИДЕО</a>
+          </li>
+          <li>
+            <a href="#">КАРТА ШТАТА</a>
+          </li>
+          <li>
+            <a href="/hotels.html">ГОСТИНИЦЫ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="index-logo">
+        <img src="/index.html" alt="Логотип седона">
+      </div>
     </header>
-    <div class="container">
-        <section class="inf-house">
-            <div class="infrastructure">
-                <h2>ИНФРАСТРУКТУРА:</h2>
-                <label>
-                    <input type="checkbox" value="БАССЕЙН" checked>БАССЕЙН</label>
-                <label>
-                    <input type="checkbox" value="ПАРКОВКА">ПАРКОВКА</label>
-                <label>
-                    <input type="checkbox" value="WI-FI">WI-FI</label>
-            </div>
-            <div class="house">
-                <h2>ТИП ЖИЛЬЯ:</h2>
-                <label>
-                    <input type="checkbox" value="ГОСТИНИЦА" checked>ГОСТИНИЦА</label>
-                <label>
-                    <input type="checkbox" value="МОТЕЛЬ" checked>БАССЕЙН</label>
-                <label>
-                    <input type="checkbox" value="АПАРТАМЕНТЫ" checked>АПАРТАМЕНТЫ</label>
-            </div>
-            <h2>CТОИМОСТЬ В СУТКИ(Р):</h2>
-            <form class="slider-form" action="URL" method="post">
-                <label>ОТ</label>
-                <input id="ot" type="text">
-                <label>ДО</label>
-                <input id="do" type="text">
-                <input id="slider" type="range">
-                <input type="submit" value="ПОКАЗАТЬ">
-            </form>
-        </section>
+    <section class="inf-house">
+      <div class="infrastructure">
+        <h2>ИНФРАСТРУКТУРА:</h2>
+        <label>
+          <input type="checkbox" value="БАССЕЙН" checked>БАССЕЙН</label>
+        <label>
+          <input type="checkbox" value="ПАРКОВКА">ПАРКОВКА</label>
+        <label>
+          <input type="checkbox" value="WI-FI">WI-FI</label>
+      </div>
+      <div class="house">
+        <h2>ТИП ЖИЛЬЯ:</h2>
+        <label>
+          <input type="checkbox" value="ГОСТИНИЦА" checked>ГОСТИНИЦА</label>
+        <label>
+          <input type="checkbox" value="МОТЕЛЬ" checked>БАССЕЙН</label>
+        <label>
+          <input type="checkbox" value="АПАРТАМЕНТЫ" checked>АПАРТАМЕНТЫ</label>
+      </div>
+      <h2>CТОИМОСТЬ В СУТКИ(Р):</h2>
+      <form class="slider-form" action="URL" method="post">
+        <label>ОТ</label>
+        <input id="ot" type="text">
+        <label>ДО</label>
+        <input id="do" type="text">
+        <input id="slider" type="range">
+        <input type="submit" value="ПОКАЗАТЬ">
+      </form>
+    </section>
 
-        <!--Заголовок сортировки-->
-        <section class="sorting-header">
-            <div class="sorting-block">
-                <div class="Search-item">
-                    <h3>НАЙДЕНО: 3</h3>
-                </div>
-                <div class="sorting-select">
-                    <span>СОРТИРОВКА</span>
-                    <ul>
-                        <li><a href="#">ПО ЦЕНЕ</a></li>
-                        <li><a href="#">ПО ТИПУ</a></li>
-                        <li><a href="#">ПО РЕЙТИНГУ</a></li>
-                    </ul>
-                </div>
-                <div class="arrow">
-                    <ul>
-                        <li><a href="#"><i></i></a></li>
-                        <li><a href="#"><i></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <!--Заголовок сортировки-->
+    <section class="sorting-header">
+      <div class="Search-item">
+        <h3>НАЙДЕНО: 3</h3>
+      </div>
+      <div class="sorting-select">
+        <span>СОРТИРОВКА</span>
+        <ul>
+          <li><a href="#">ПО ЦЕНЕ</a></li>
+          <li><a href="#">ПО ТИПУ</a></li>
+          <li><a href="#">ПО РЕЙТИНГУ</a></li>
+        </ul>
+      </div>
+      <div class="arrow">
+        <ul>
+          <li><a href="#"><i></i></a></li>
+          <li><a href="#"><i></i></a></li>
+        </ul>
+      </div>
+    </section>
 
-        <!--Секции бронирования мотеля-->
-        <!--Секции 1-->
-        <section class="catalog">
-            <article class="hotel">
-                <div class="hotel-img">
-                    <img src="#" width="#" height="#" alt="AMARA RESORT&#38;SPA">
-                </div>
+    <!--Секции бронирования мотеля-->
+    <!--Секции 1-->
+    <section class="catalog">
+      <article class="hotel">
+        <div class="hotel-img">
+          <img src="#" width="#" height="#" alt="AMARA RESORT&#38;SPA">
+        </div>
 
-                <div class="name">
+        <div class="name">
 
-                    <h1>AMARA RESORT&#38;SPA</h1>
-                    <div class="details">
-                        <span>ГОСТИНИЦА</span>
-                        <a href="#">ПОДРОБНЕЕ</a>
-                    </div>
+          <h1>AMARA RESORT&#38;SPA</h1>
+          <div class="details">
+            <span>ГОСТИНИЦА</span>
+            <a href="#">ПОДРОБНЕЕ</a>
+          </div>
 
-                    <div class="book">
-                        <span>ОТ 2000 Р.</span>
-                        <a href="#">ЗАБРОНИРОВАТЬ</a>
-                    </div>
-                </div>
+          <div class="book">
+            <span>ОТ 2000 Р.</span>
+            <a href="#">ЗАБРОНИРОВАТЬ</a>
+          </div>
+        </div>
 
-                <div class="rating">
-                    <i></i><i></i>
-                    <span>РЕЙТИНГ: 8,9</span>
-                </div>
-            </article>
-        </section>
-        <!--Секции 2-->
-        <section class="catalog">
-            <article class="hotel">
-                <div class="hotel-img">
-                    <img src="#" width="#" height="#" alt="DESERT QUALI INN">
-                </div>
+        <div class="rating">
+          <i></i><i></i>
+          <span>РЕЙТИНГ: 8,9</span>
+        </div>
+      </article>
+    </section>
+    <!--Секции 2-->
+    <section class="catalog">
+      <article class="hotel">
+        <div class="hotel-img">
+          <img src="#" width="#" height="#" alt="DESERT QUALI INN">
+        </div>
 
-                <div class="name">
+        <div class="name">
 
-                    <h1>DESERT QUAL INN</h1>
-                    <div class="details">
-                        <span>МОТЕЛЬ</span>
-                        <a href="#">ПОДРОБНЕЕ</a>
-                    </div>
+          <h1>DESERT QUAL INN</h1>
+          <div class="details">
+            <span>МОТЕЛЬ</span>
+            <a href="#">ПОДРОБНЕЕ</a>
+          </div>
 
-                    <div class="book">
-                        <span>ОТ 2000 Р.</span>
-                        <a href="#">ЗАБРОНИРОВАТЬ</a>
-                    </div>
-                </div>
+          <div class="book">
+            <span>ОТ 2000 Р.</span>
+            <a href="#">ЗАБРОНИРОВАТЬ</a>
+          </div>
+        </div>
 
-                <div class="rating">
-                    <i></i><i></i>
-                    <span>РЕЙТИНГ: 8,9</span>
-                </div>
-            </article>
-        </section>
-        <!--Секции 3-->
-        <section class="catalog">
-            <article class="hotel">
-                <div class="hotel-img">
-                    <img src="#" width="#" height="#" alt="VILLAS AT POCO DIABLO">
-                </div>
+        <div class="rating">
+          <i></i><i></i>
+          <span>РЕЙТИНГ: 8,9</span>
+        </div>
+      </article>
+    </section>
+    <!--Секции 3-->
+    <section class="catalog">
+      <article class="hotel">
+        <div class="hotel-img">
+          <img src="#" width="#" height="#" alt="VILLAS AT POCO DIABLO">
+        </div>
 
-                <div class="name">
+        <div class="name">
 
-                    <h1>VILLAS AT POCO DIABLO</h1>
-                    <div class="details">
-                        <span>АПАРТАМЕНТЫ</span>
-                        <a href="#">ПОДРОБНЕЕ</a>
-                    </div>
+          <h1>VILLAS AT POCO DIABLO</h1>
+          <div class="details">
+            <span>АПАРТАМЕНТЫ</span>
+            <a href="#">ПОДРОБНЕЕ</a>
+          </div>
 
-                    <div class="book">
-                        <span>ОТ 4000 Р.</span>
-                        <a href="#">ЗАБРОНИРОВАТЬ</a>
-                    </div>
-                </div>
+          <div class="book">
+            <span>ОТ 4000 Р.</span>
+            <a href="#">ЗАБРОНИРОВАТЬ</a>
+          </div>
+        </div>
 
-                <div class="rating">
-                    <i></i><i></i>
-                    <span>РЕЙТИНГ: 9,2</span>
-                </div>
-            </article>
-        </section>
+        <div class="rating">
+          <i></i><i></i>
+          <span>РЕЙТИНГ: 9,2</span>
+        </div>
+      </article>
+    </section>
 
-        <!--Подвал-->
-        <footer class="main-footer">
-            <div class="footer-hashtag">
-                <a class="visit" href="#">#VISITSEDONA</a>
-            </div>
-            <div class="footer-social">
-                <a class="social-btn social-btn-tw" href="#">Твиттер</a>
-                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                <a class="social-btn social-btn-yb" href="#">Youtube</a>
-            </div>
-            <div class="footer-copyright">
-                <a href="https://htmlacademy.ru/" img src="#" width="#" height="#" alt="КОПИРАЙТИНГ HtmlAcademy">HtmlAcademy</a>
-            </div>
-        </footer>
-    </div>
+    <!--Подвал-->
+    <footer class="main-footer">
+      <div class="footer-hashtag">
+        <a class="visit" href="#">#VISITSEDONA</a>
+      </div>
+      <div class="footer-social">
+        <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-yb" href="#">Youtube</a>
+      </div>
+      <div class="footer-copyright">
+        <a href="https://htmlacademy.ru/" img src="#" width="#" height="#" alt="КОПИРАЙТИНГ HtmlAcademy">HtmlAcademy</a>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
