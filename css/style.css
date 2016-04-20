@@ -73,3 +73,17 @@ h3 {
     line-height: 26px;
     font-weight: bold;
 }
+.footer-copyright > a {
+    background: url("../img/copyright.png");
+    /* Путь к файлу с исходным рисунком  */
+    display: block;
+    /*  Рисунок как блочный элемент */
+    width: 113px;
+    height: 39px;
+}
+.footer-copyright >:hover {
+    background: url("../img/copyright1.png");
+}
+.footer-copyright >:active {
+    background: url("../img/copyright2.png");
+}
