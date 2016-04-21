@@ -1,89 +1,89 @@
 body {
-    font-size: 14px;
-    line-height: 21px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    color: black;
-    font-weight: normal;
-    background: #f2f2f2;
-    text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: black;
+  font-weight: normal;
+  background: #f2f2f2;
+  text-transform: uppercase;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 ul {
-    list-style: none;
-    font-weight: bold;
+  list-style: none;
+  font-weight: bold;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 h1 {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
 }
 h2 {
-    font-size: 21px;
-    line-height: inherit;
-    font-weight: bold;
+  font-size: 21px;
+  line-height: inherit;
+  font-weight: bold;
 }
 h3 {
-    font-size: 30px;
-    line-height: 24px;
-    font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: bold;
 }
 .reason-header > p {
-    line-height: 26px;
+  line-height: 26px;
 }
 .inf-house > h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 .inf-house > div > h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 .Search-item > h3 {
-    font-size: 21px;
-    line-height: 26px;
+  font-size: 21px;
+  line-height: 26px;
 }
 .sorting-select {
-    font-size: 12px;
-    line-height: 18px;
+  font-size: 12px;
+  line-height: 18px;
 }
 .main-navigation {
-    line-height: 26px;
-    display: inline-block;
-    background: #f2f2f2;
-    heigh: 56px;
-    widtn: 1200px;
-    margin: 0 auto;
+  line-height: 26px;
+  display: inline-block;
+  background: #f2f2f2;
+  heigh: 56px;
+  widtn: 1200px;
+  margin: 0 auto;
 }
 .main-navigation > ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .main-navigation > ul > li {
-    display: inline-block;
+  display: inline-block;
 }
 .main-header > .index-logo {
-    display: inline-block;
-    width: 138px;
+  display: inline-block;
+  width: 138px;
 }
 .appointment-form {
-    line-height: 26px;
-    font-weight: bold;
+  line-height: 26px;
+  font-weight: bold;
 }
 .footer-copyright > a {
-    background: url("../img/copyright.png");
-    /* Путь к файлу с исходным рисунком  */
-    display: block;
-    /*  Рисунок как блочный элемент */
-    width: 113px;
-    height: 39px;
+  background: url("../img/copyright.png");
+  /* Путь к файлу с исходным рисунком  */
+  display: block;
+  /*  Рисунок как блочный элемент */
+  width: 113px;
+  height: 39px;
 }
 .footer-copyright >:hover {
-    background: url("../img/copyright1.png");
+  background: url("../img/copyright1.png");
 }
 .footer-copyright >:active {
-    background: url("../img/copyright2.png");
+  background: url("../img/copyright2.png");
 }
