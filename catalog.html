@@ -35,43 +35,49 @@
             </div>
         </header>
         <section class="catalog-properties">
-            <div class="infrastructure">
-                <h2>ИНФРАСТРУКТУРА:</h2>
-                <label>
-                    <input type="checkbox" value="БАССЕЙН" checked>БАССЕЙН</label>
-                <label>
-                    <input type="checkbox" value="ПАРКОВКА">ПАРКОВКА</label>
-                <label>
-                    <input type="checkbox" value="WI-FI">WI-FI</label>
-            </div>
-            <div class="house">
-                <h2>ТИП ЖИЛЬЯ:</h2>
-                <label>
-                    <input type="checkbox" value="ГОСТИНИЦА" checked>ГОСТИНИЦА</label>
-                <label>
-                    <input type="checkbox" value="МОТЕЛЬ" checked>БАССЕЙН</label>
-                <label>
-                    <input type="checkbox" value="АПАРТАМЕНТЫ" checked>АПАРТАМЕНТЫ</label>
-            </div>
-            <h2>CТОИМОСТЬ В СУТКИ(Р):</h2>
             <form class="slider-form" action="URL" method="post">
-                <label>ОТ</label>
-                <input id="ot" type="text">
-                <label>ДО</label>
-                <input id="do" type="text">
-                <input id="slider" type="range">
-                <input type="submit" value="ПОКАЗАТЬ">
+                <div class="infrastructure">
+                    <h2>ИНФРАСТРУКТУРА:</h2>
+                    <label>
+                        <input type="checkbox" value="БАССЕЙН" checked>БАССЕЙН</label>
+                    <label>
+                        <input type="checkbox" value="ПАРКОВКА">ПАРКОВКА</label>
+                    <label>
+                        <input type="checkbox" value="WI-FI">WI-FI</label>
+                </div>
+                <div class="house">
+                    <h2>ТИП ЖИЛЬЯ:</h2>
+                    <label>
+                        <input type="checkbox" value="ГОСТИНИЦА" checked>ГОСТИНИЦА</label>
+                    <label>
+                        <input type="checkbox" value="МОТЕЛЬ" checked>БАССЕЙН</label>
+                    <label>
+                        <input type="checkbox" value="АПАРТАМЕНТЫ" checked>АПАРТАМЕНТЫ</label>
+                </div>
+                <div class="cost-per-day">
+                    <h2>CТОИМОСТЬ В СУТКИ(Р):</h2>
+
+                    <label>ОТ</label>
+                    <input id="ot" type="text">
+                    <label>ДО</label>
+                    <input id="do" type="text">
+
+                    <input id="slider" type="range">
+
+                    <input type="submit" class="show-button" value="ПОКАЗАТЬ">
+                </div>
             </form>
+
         </section>
 
         <!--Заголовок сортировки-->
         <section class="sorting-header">
-            <div class="search-item">
+            <div class="found">
                 <h3>НАЙДЕНО: 3</h3>
             </div>
             <div class="sorting-select">
-                <span>СОРТИРОВКА</span>
-                <ul>
+                <span>СОРТИРОВКА:</span>
+                <ul class="list-menu">
                     <li><a href="#">ПО ЦЕНЕ</a></li>
                     <li><a href="#">ПО ТИПУ</a></li>
                     <li><a href="#">ПО РЕЙТИНГУ</a></li>
