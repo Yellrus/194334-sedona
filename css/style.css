@@ -3,7 +3,7 @@ body {
     text-transform: uppercase;
     color: black;
     background: #f2f2f2;
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: "PT Sans" "Arial", sans-serif;
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
@@ -22,6 +22,7 @@ ul {
 a {
     margin: 0;
     text-decoration: none;
+    color: black;
 }
 .index-logo {
     width: 138px;
@@ -43,14 +44,12 @@ a {
     display: -ms-flexbox;
     display: flex;
     height: 55px;
-    outline: 1px solid #227c20;
 }
 .main-menu li {
     box-sizing: border-box;
     text-align: center;
     width: 240px;
     height: 55px;
-    outline: 1px solid #c8651d;
     padding-top: 18px;
     font-weight: bold;
 }
@@ -106,12 +105,10 @@ a {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
-    outline: 1px solid #ed520f;
 }
 .reason-item {
     width: 400px;
     text-align: center;
-    outline: 1px solid #fc04f3;
 }
 .reason-item h2 {
     font-size: 21px;
@@ -140,19 +137,76 @@ a {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
 }
 .service-item {
     width: 400px;
-    outline: 1px solid #4c27e3;
     text-align: center;
+    outline: 1px solid #7600fc;
     box-sizing: border-box;
-    padding: 60px 0 76px;
+    padding-top: 122px;
+    padding-bottom: 65px;
+    position: relative;
 }
 .service-item h2 {
     font-size: 21px;
     line-height: 21px;
 }
+.service-item p {
+    line-height: 26px;
+}
+
+/*====================================СПРАЙТ иконки секции сервиса ====================================*/
+
+.sprite {
+    display: inline-block;
+    background-image: url(../img/sprite-service.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+.sprite-eat {
+    width: 74px;
+    height: 70px;
+    background-position: -5px -5px;
+}
+.sprite-gift {
+    width: 64px;
+    height: 76px;
+    background-position: -5px -85px;
+}
+.sprite-house {
+    width: 75px;
+    height: 72px;
+    background-position: -5px -171px;
+}
+.sprite::before {
+    content: "";
+    width: 70px;
+    height: 75px;
+    background-position: -5px -85px;
+    background-image: url(../img/sprite-service.png);
+    position: absolute;
+    top: 0;
+    right: 41%;
+    transform: translateY(70%);
+}
+.girt::before {
+    width: 64px;
+    height: 76px;
+    background-position: -5px -85px;
+}
+.house::before {
+    width: 75px;
+    height: 72px;
+    background-position: -5px -171px;
+}
+.eat::before {
+    width: 74px;
+    height: 70px;
+    background-position: -5px -5px;
+}
+
+/*====================================СПРАЙТЫ ====================================*/
+
 
 /*  <СЕКЦИЯ 4 */
 
@@ -210,7 +264,7 @@ a {
     -ms-grid-row-align: center;
     align-items: center;
     outline: 1px solid #031045;
-    background: #cddfab url(../bg-sedona-map.png);
+    background: #cddfab url(../img/bg-sedona-map.png);
     background-repeat: no-repeat;
     background-size: 1200px auto;
     height: 476px;
@@ -421,15 +475,26 @@ a {
     box-sizing: border-box;
     padding-bottom: 60px;
 }
-.main-footer .footer-hashtag {
+.footer-hashtag {
     width: 400px;
     outline: 1px solid #35f605;
 }
-.main-footer .footer-social {
+.visit {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+/* ===================================Социальные кнопки ======================================*/
+
+.footer-social {
     width: 400px;
     outline: 1px solid #35f605;
 }
-.main-footer .footer-copyright {
+
+/* ===================================Социальные кнопки ======================================*/
+
+.footer-copyright {
     width: 400px;
     outline: 1px solid #35f605;
 }
@@ -437,13 +502,15 @@ a {
     background: url("../img/copyright.png");
     /* Путь к файлу с исходным рисунком  */
     display: block;
+    ;
     /*  Рисунок как блочный элемент */
     width: 113px;
     height: 39px;
+    position: absolute;
 }
-.footer-copyright >:hover {
+.footer-copyright>:hover {
     background: url("../img/copyright1.png");
 }
-.footer-copyright >:active {
+.footer-copyright>:active {
     background: url("../img/copyright2.png");
 }
