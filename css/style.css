@@ -158,6 +158,21 @@ a {
     font-family: "PT Sans bold", "Arial", sans-serif;
     font-weight: normal;
 }
+.main-menu a:hover {
+    color: #81b3d2;
+}
+.main-menu a:active {
+    color: #b2b2b2;
+}
+.main-menu .active {
+    color: #9b8d84;
+}
+.main-menu .active:hover {
+    color: #604e43;
+}
+.main-menu .active:active {
+    color: #d6d0cc;
+}
 .main-menu li:nth-child(2) {
     margin-right: 240px;
 }
@@ -556,7 +571,6 @@ a {
     width: 1200px;
     padding: 35px 0;
     text-align: center;
-    outline: 1px solid #3d1819;
     background: #ffffff;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -599,40 +613,54 @@ a {
 .social-btn:nth-child(2) {
     margin: 0 6px;
 }
+.social-btn:hover {
+    background-color: #669ec0;
+}
+.social-btn:active {
+    background-color: #5496bd;
+}
+.icon-youtube:active, .icon-facebook:active, .icon-twitter:active {
+    background-color: #5496bd;
+    color: #88b6d1;
+}
 
 /* ===================================Социальные кнопки ======================================*/
 
 .footer-copyright {
     width: 400px;
     outline: 1px solid #35f605;
-    position: relative;
+    height: 39px;
 }
 .footer-copyright a {
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;
     line-height: 25px;
-    margin-right: 135px;
+    position: relative;
 }
-.footer-copyright a:before {
-    position: absolute;
+.footer-copyright a:after {
+    display: inline-block;
+    vertical-align: middle;
     width: 113px;
     height: 39px;
-    display: block;
+    background-position: -5px -5px;
+    margin-left: 20px;
     content: "";
-    margin-left: 85px;
-    transform: translateY(-13%);
-    background-image: url(../img/copyright.png);
+    background-image: url(../img/copyrigth-sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.footer-copyright a:hover {
+    background: url(../img/copyrigth-sprite.png);
+    width: 113px;
+    height: 39px;
+    background-position: -5px -54px;
     background-repeat: no-repeat;
 }
-
-/*
-.footer-copyright a:hover {
-
-    background: url("../img/copyright1.png");
-
-}
 .footer-copyright a:active {
-    background: url("../img/copyright2.png");
+    background: url(../img/copyrigth-sprite.png);
+    width: 113px;
+    height: 39px;
+    background-position: -5px -103px;
+    background-repeat: no-repeat;
 }
-*/
