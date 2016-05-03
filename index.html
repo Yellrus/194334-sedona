@@ -49,7 +49,7 @@
             <!--БЛОК Настоящий городок-->
             <div class="reason-item">
                 <h2>Настоящий <br> городок</h2>
-                <span>&#8212; №1 &#8212;</span>
+                <span class="reason-number">&#8212; №1 &#8212;</span>
                 <p>Седона не аттракцион для туристов,
                     <br> там течет своя жизнь</p>
             </div>
@@ -90,7 +90,7 @@
             <!--БЛОК Мост Дьявола-->
             <div class="reason-item">
                 <h2>Там есть <br> мост дьявола</h2>
-                <span>&#8212; №2 &#8212;</span>
+                <span class="reason-number">&#8212; №2 &#8212;</span>
                 <p>Да, по нему можно пройти! Если конечно
                     <br> вы осмелитесь</p>
             </div>
@@ -101,21 +101,21 @@
             <!--Небольшая площадь-->
             <div class="reason-item">
                 <h2>Небольшая <br> площадь</h2>
-                <span>&#8212; №3 &#8212;</span>
+                <span class="reason-number">&#8212; №3 &#8212;</span>
                 <p>Все достопримечательности
                     <br> находятся очень близко</p>
             </div>
             <!--Красивая дорога-->
             <div class="reason-item">
                 <h2>Красивая <br> дорога</h2>
-                <span>&#8212; №4 &#8212;</span>
+                <span class="reason-number">&#8212; №4 &#8212;</span>
                 <p>Ехать в седону из Лас-Вегаса совсем
                     <br> не скучно</p>
             </div>
             <!--Мало туристов-->
             <div class="reason-item">
                 <h2>Мало <br> туристов</h2>
-                <span>&#8212; №5 &#8212;</span>
+                <span class="reason-number">&#8212; №5 &#8212;</span>
                 <p>Большинство едет в гранд каньон и
                     <br> толпится там</p>
             </div>
@@ -126,34 +126,34 @@
             <h3>Заинтересовались?</h3>
             <p>Укажите предпологаемые даты поездки,
                 <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a href="#">Поиск гостиницы в Седоне</a>
+            <a class="search-button" href="./form.html">Поиск гостиницы в Седоне</a>
         </section>
 
         <!--Cекция 6 | Форма поиска и фон карты-->
         <section class="map">
-            <form class="appointment-form" action="URL" method="post">
+            <form class="appointment-form appointment-form-invisible" action="https://echo.htmlacademy.ru" method="post">
                 <div class="form-datein">
                     <label for="datein">Дата заезда:</label>
-                    <input id="datein" name="date-entry" type="text">
+                    <input id="datein" name="date-entry" type="text" value="24 АПРЕЛЯ 2016">
                     <a href="#" class="icon-calendar"></a>
                 </div>
                 <div class="form-dateout">
                     <label for="dateout">Дата выезда:</label>
-                    <input id="dateout" name="date-exit" type="text">
+                    <input id="dateout" name="date-exit" type="text" value="4 ИЮЛЯ 2016">
                     <a href="#" class="icon-calendar"></a>
                 </div>
                 <div class="box">
                     <div class="block-adults">
                         <label for="adults">Взрослые:</label>
-                        <button value="-">-</button>
-                        <input id="adults" name="big" type="text">
-                        <button value="+">+</button>
+                        <button value="-"><i class="icon-minus"></i></button>
+                        <input id="adults" name="big" type="text" value="2">
+                        <button value="+"><i class="icon-plus"></i></button>
                     </div>
                     <div class="block-children">
                         <label for="children">Дети:</label>
-                        <button value="-">-</button>
-                        <input id="children" name="little" type="text">
-                        <button value="+">+</button>
+                        <button value="-"><i class="icon-minus"></i></button>
+                        <input id="children" name="little" type="text" value="0">
+                        <button value="+"><i class="icon-plus"></i></button>
                     </div>
                 </div>
                 <input class="form-searsch-sub" type="submit" name="search" value="Найти">
@@ -178,6 +178,7 @@
             </div>
         </footer>
     </div>
+    <script src="myscript.js"></script>
 </body>
 
 </html>
