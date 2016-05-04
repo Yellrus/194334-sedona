@@ -404,15 +404,12 @@ a {
     font-weight: normal;
     line-height: 26px;
 }
-.form-datein {
+.form-datein, .form-dateout {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -423,29 +420,15 @@ a {
     align-items: center;
 }
 .form-dateout {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     margin-top: 29px;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    height: 38px;
 }
 .form-datein input, .form-dateout input {
     box-sizing: border-box;
-    width: 346px;
+    width: 345px;
+    height: 38px;
     margin-left: 20px;
-    padding: 6px 0 6px 15px;
+    padding: 0 0 0 15px;
     border: none;
     background: #f2f2f2;
 }
@@ -484,6 +467,7 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    box-sizing: border-box;
 }
 .block-adults label, .block-children label {
     display: -webkit-box;
@@ -505,7 +489,7 @@ a {
     position: relative;
     box-sizing: border-box;
     width: 38px;
-    height: 40px;
+    height: 38px;
     text-align: center;
     border: 0;
     background: #f2f2f2;
@@ -549,7 +533,7 @@ a {
 }
 .form-searsch-sub {
     width: 458px;
-    margin-top: 54px;
+    margin-top: 55px;
     padding: 16px 0;
     cursor: pointer;
     text-transform: uppercase;
