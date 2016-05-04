@@ -523,7 +523,7 @@ a {
     background: #f2f2f2;
     font-size: 14px;
     font-weight: bold;
-    line-height: 38px;
+    height: 38px;
 }
 .box button:hover {
     color: #000000;
